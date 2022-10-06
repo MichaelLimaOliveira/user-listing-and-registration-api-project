@@ -12,7 +12,7 @@
     "/users": {
       "post": {
         "tags": ["Users"],
-        "summary": "create a new user",
+        "summary": "Create a new user",
         "description": "Create a new user",
         "requestBody": {
           "content": {
@@ -113,8 +113,8 @@
     "/users/{user_id}/admin": {
       "patch": {
         "tags": ["Users"],
-        "summary": "make user admin",
-        "description": "make user admin",
+        "summary": "Make user admin",
+        "description": "Make user admin",
         "parameters": [
           {
             "name": "user_id",
